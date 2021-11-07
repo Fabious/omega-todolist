@@ -9,5 +9,5 @@ RUN yarn install
 
 COPY . .
 
-EXPOSE 1234
+EXPOSE 8080
 CMD ["yarn", "start"]
