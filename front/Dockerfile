@@ -1,9 +1,9 @@
 FROM node
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY package.json /app
-COPY yarn.lock /app
+COPY package.json ./
+COPY yarn.lock ./
 RUN yarn install
 
 COPY . .
