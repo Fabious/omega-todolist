@@ -1,5 +1,7 @@
-it('smoke test', () => {
-  expect(1 + 1).toEqual(2)
-})
+import React from 'react'
+import { render } from '@testing-library/react'
+import { App } from '../src/app'
 
-export {}
+it('smoke test', () => {
+  render(<App />)
+})
