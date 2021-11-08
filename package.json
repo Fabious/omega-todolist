@@ -20,7 +20,9 @@
   "scripts": {
     "start": "parcel src/index.html",
     "test": "jest",
-    "lint": "eslint src",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --watch=false --coverage",
+    "lint": "eslint packages/",
     "install": "lerna bootstrap",
     "clean": "lerna clean"
   }

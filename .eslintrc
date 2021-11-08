@@ -13,6 +13,7 @@
     },
     "sourceType": "module"
   },
+  "ignorePatterns": "dist/",
   "plugins": ["react", "@typescript-eslint"],
   "rules": {},
   "settings": {

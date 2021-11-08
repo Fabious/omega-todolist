@@ -4,8 +4,7 @@
   "description": "front of the omega todolist",
   "main": "src/index.ts",
   "scripts": {
-    "start": "parcel src/index.html",
-    "lint": "eslint src"
+    "start": "parcel src/index.html"
   },
   "author": "Fabious",
   "license": "MIT",
