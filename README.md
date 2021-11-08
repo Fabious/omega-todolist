@@ -9,3 +9,7 @@ Overkill todolist with uncessary tools :
 - Docker
 - React
 - api / database
+
+# Installation
+
+`yarn install`
