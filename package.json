@@ -20,6 +20,7 @@
     "start": "parcel src/index.html",
     "test": "jest",
     "lint": "eslint src",
-    "install": "lerna bootstrap"
+    "install": "lerna bootstrap",
+    "clean": "lerna clean"
   }
 }

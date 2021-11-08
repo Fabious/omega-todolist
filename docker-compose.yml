@@ -2,13 +2,13 @@ version: '3.7'
 
 services:
   front:
-    build: ./front
+    build: ./packages/front
     ports:
       - 80:1234
     volumes:
-      - ./front/src:/app/src
+      - ./packages/front/src:/app/src
 
   api:
-    build: ./api
+    build: ./packages/api
     ports:
       - 8080:8080
