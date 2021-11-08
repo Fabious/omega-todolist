@@ -24,7 +24,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn
-        working-directory: ./front
+      - run: yarn install
       - run: yarn test
-        working-directory: ./front
