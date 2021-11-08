@@ -1,0 +1,7 @@
+{
+  "name": "omega-todolist",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
